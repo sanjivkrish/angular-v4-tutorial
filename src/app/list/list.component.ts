@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./list.component.css']
 })
 export class ListComponent implements OnInit {
+  listTitle: string = 'Sample list';
+  listItems: any[] = ['one', 'two', 'three'];
 
   constructor() { }
 
