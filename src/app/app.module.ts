@@ -6,11 +6,13 @@ import { CommonModule } from '@angular/common';
 import { AppComponent } from './app.component';
 import { ListComponent } from './list/list.component';
 import { MovielistService } from './services/movielist/movielist.service';
+import { BoldDirective } from './directives/bold/bold.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ListComponent
+    ListComponent,
+    BoldDirective
   ],
   imports: [
     BrowserModule,
