@@ -9,6 +9,7 @@ import { MovielistService } from '../services/movielist/movielist.service';
 export class ListComponent implements OnInit {
   listTitle: string = 'Sample list';
   listItems: any[] = ['one', 'two', 'three'];
+  userInput: string = 'Hello there';
 
   constructor(private _moviesList: MovielistService) {
     this.listItems = this._moviesList.getMovies();
